@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	A small collection of Perl extensions for the rxvt-unicode terminal emulator
 Name:		urxvt-perls
-Version:	2.1
+Version:	2.2
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://github.com/muennich/urxvt-perls/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	656dace02d55536954154f530e8a0cb3
+# Source0-md5:	52332f67b93134d599f06e4d94915d52
 URL:		http://github.com/muennich/urxvt-perls
 BuildRequires:	rpm-perlprov >= 4.1-13
 Requires:	urxvt
@@ -40,6 +40,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README.md
 %{urxvtperldir}/clipboard
 %{urxvtperldir}/keyboard-select
 %{urxvtperldir}/url-select
