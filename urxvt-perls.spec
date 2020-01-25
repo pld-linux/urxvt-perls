@@ -1,6 +1,5 @@
 # NOTE
 # - not noarch due package dir
-%include	/usr/lib/rpm/macros.perl
 Summary:	A small collection of Perl extensions for the rxvt-unicode terminal emulator
 Name:		urxvt-perls
 Version:	2.2
