@@ -3,7 +3,7 @@
 Summary:	A small collection of Perl extensions for the rxvt-unicode terminal emulator
 Name:		urxvt-perls
 Version:	2.2
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://github.com/muennich/urxvt-perls/archive/%{version}/%{name}-%{version}.tar.gz
